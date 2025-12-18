@@ -1,0 +1,13 @@
+{
+    "$schema": "../../appsettings-schema.json",
+    "name": "TipTap Super Paste",
+    "version": "0.1.0",
+    "extensions": [
+        {
+            "type": "bundle",
+            "alias": "TipTap.SuperPaste.Bundle",
+            "name": "Super Paste Bundle",
+            "js": "/App_Plugins/TipTapSuperPaste/dist/manifest.js"
+        }
+    ]
+}
